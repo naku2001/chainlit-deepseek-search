@@ -1,6 +1,7 @@
 import time 
 from openai import AsyncOpenAI
 import chainlit as cl
+from mcp_client import use_mcp_tool
 
 client = AsyncOpenAI(api_key="ollama", base_url="http://localhost:11434/v1/")
 
